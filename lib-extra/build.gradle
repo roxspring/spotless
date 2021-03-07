@@ -16,6 +16,7 @@ dependencies {
 	implementation "com.googlecode.concurrent-trees:concurrent-trees:2.6.1"
 	// used for xml parsing in EclipseFormatter
 	implementation "org.codehaus.groovy:groovy-xml:3.0.7"
+	implementation "com.squareup.moshi:moshi:1.11.0"
 
 	// testing
 	testImplementation project(':testlib')
